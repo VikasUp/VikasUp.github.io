@@ -1,26 +1,36 @@
-# SEO Update Report — VikasUp.github.io
+# SEO V2 Update Report — VikasUp.github.io
 
-This package keeps the original portfolio structure, inline CSS, animations, JavaScript, project images, resume, and Google Search Console verification file.
+Implemented without replacing the existing portfolio design, animations, project assets, resume, or Search Console verification file.
 
-## SEO changes
-- Updated page title for Flutter/mobile developer search intent.
-- Expanded meta description with Flutter, Dart, Android, iOS, Firebase, REST APIs, clean architecture, CI/CD and deployment terms.
-- Added canonical URL.
-- Added robots meta directives.
-- Added sitemap discovery link.
-- Added Open Graph metadata.
-- Added Twitter card metadata.
-- Added Schema.org `ProfilePage`, `Person`, and `WebSite` structured data.
-- Updated the main H1 to clearly identify Senior Flutter Developer.
-- Updated the hero copy with relevant technical/service terms.
-- Updated the GitHub CTA to the user's GitHub profile.
+## Homepage
+- Stronger title and meta description for Vikas Upadhyay + Flutter/mobile app intent.
+- Clear H1: Vikas Upadhyay + Flutter & Mobile App Developer.
+- Added Mobile App Development, Flutter Development, iOS Development, Android Development and Software Development service section.
+- Added service-page internal links.
+- Preserved canonical, robots, sitemap discovery, Open Graph and Twitter metadata.
+- Expanded Person/ProfilePage structured data and technical expertise signals.
+- Kept GitHub as the only verified external profile in `sameAs`; no unverified LinkedIn URL was invented.
 
-## Files
-- `index.html` — original design + SEO changes
-- `robots.txt`
-- `sitemap.xml`
-- `google1679ab54db2eab38.html` — preserved Search Console verification file
-- all original assets and `resume.pdf`
+## New service landing pages
+- `/mobile-app-development/`
+- `/flutter-development/`
+- `/ios-development/`
+- `/android-development/`
+- `/software-development/`
+
+Each page has:
+- unique title and meta description
+- canonical URL
+- Open Graph/Twitter metadata
+- WebPage + Service structured data
+- useful service-specific content
+- internal links back to the portfolio
+
+## Sitemap
+Updated `sitemap.xml` with all six crawlable URLs.
+
+## Positioning
+The site targets relevant developer and service searches while avoiding unsupported claims that Vikas Upadhyay is a large software/mobile "company". The pages present the work as Vikas Upadhyay's development services and portfolio.
 
 ## Important
-SEO changes can improve crawlability and relevance signals, but they do not guarantee a particular Google ranking, traffic level, or rich-result appearance.
+SEO improvements do not guarantee #1 ranking. Google determines ranking dynamically. Search Console should be used to measure impressions, clicks, CTR and average position after Google crawls and indexes the new URLs.

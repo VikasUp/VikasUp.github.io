@@ -3,8 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Vikas Upadhyay is a Senior Flutter Developer in Mumbai, India specializing in Flutter, Dart, Android & iOS apps, Firebase, REST APIs, clean architecture, CI/CD and production deployment.">
-<title>Vikas Upadhyay | Senior Flutter Developer & Mobile App Developer</title>
+<meta name="theme-color" content="#07090d">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="Vikas Upadhyay — Senior Flutter Developer and Mobile App Developer in Mumbai, India. I build production-ready Android and iOS apps with Flutter, Dart, Firebase, REST APIs, clean architecture and CI/CD.">
+<title>Vikas Upadhyay | Flutter, iOS & Android App Developer</title>
 <meta name="author" content="Vikas Upadhyay">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <link rel="canonical" href="https://vikasup.github.io/">
@@ -12,13 +14,13 @@
 
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://vikasup.github.io/">
-<meta property="og:title" content="Vikas Upadhyay | Senior Flutter Developer & Mobile App Developer">
+<meta property="og:title" content="Vikas Upadhyay | Flutter, iOS & Android App Developer">
 <meta property="og:description" content="Senior Flutter Developer specializing in Flutter, Dart, Android & iOS apps, Firebase, REST APIs, clean architecture, CI/CD and production deployment.">
 <meta property="og:image" content="https://vikasup.github.io/assets/profile/vikas-profile-portrait.jpg">
 <meta property="og:site_name" content="Vikas Upadhyay Portfolio">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Vikas Upadhyay | Senior Flutter Developer & Mobile App Developer">
+<meta name="twitter:title" content="Vikas Upadhyay | Flutter, iOS & Android App Developer">
 <meta name="twitter:description" content="Senior Flutter Developer specializing in Flutter, Dart, Android & iOS apps, Firebase, REST APIs, clean architecture, CI/CD and production deployment.">
 <meta name="twitter:image" content="https://vikasup.github.io/assets/profile/vikas-profile-portrait.jpg">
 
@@ -38,8 +40,10 @@
       "@type": "Person",
       "@id": "https://vikasup.github.io/#person",
       "name": "Vikas Upadhyay",
+      "givenName": "Vikas",
+      "familyName": "Upadhyay",
       "jobTitle": "Senior Flutter Developer",
-      "description": "Senior Flutter Developer specializing in Flutter, Dart, Android and iOS mobile application development.",
+      "description": "Senior Flutter Developer and Mobile App Developer specializing in Flutter, Dart, Android and iOS application development, Firebase, REST APIs, clean architecture, testing, CI/CD and production deployment.",
       "url": "https://vikasup.github.io/",
       "image": "https://vikasup.github.io/assets/profile/vikas-profile-portrait.jpg",
       "sameAs": [
@@ -48,14 +52,19 @@
       "knowsAbout": [
         "Flutter",
         "Dart",
+        "Mobile App Development",
         "Android Development",
         "iOS Development",
+        "Cross-platform App Development",
+        "Software Development",
         "Firebase",
-        "REST APIs",
+        "REST API Development",
         "BLoC",
+        "Provider",
         "Clean Architecture",
         "CI/CD",
-        "Mobile App Development"
+        "Google Play deployment",
+        "App Store deployment"
       ]
     },
     {
@@ -288,10 +297,22 @@ a:hover~.fx-cursor,.btn:hover~.fx-cursor{width:34px;height:34px}
 .projects{opacity:1;transform:none}
 }
 
+
+/* ===== SEO SERVICE LANDING CARDS ===== */
+.service-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.service-card{display:block;padding:28px;border:1px solid var(--line);border-radius:24px;background:linear-gradient(145deg,#10151e,#0b0e14);position:relative;overflow:hidden;transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}
+.service-card:after{content:"";position:absolute;width:190px;height:190px;right:-90px;top:-90px;border-radius:50%;background:var(--accent);filter:blur(75px);opacity:.08;pointer-events:none}
+.service-card:hover{transform:translateY(-5px);border-color:#63e6ff44;box-shadow:0 18px 50px rgba(99,230,255,.08)}
+.service-number{display:block;color:var(--accent);font-size:11px;font-weight:800;letter-spacing:.14em}
+.service-card h3{font-size:28px;letter-spacing:-.035em;margin:28px 0 10px}
+.service-card p{color:#aab4c2;max-width:620px}
+.service-link{display:inline-block;margin-top:18px;color:#dce8f4;font-size:13px;font-weight:700}
+@media(max-width:700px){.service-grid{grid-template-columns:1fr}}
+
 </style>
 </head>
 <body>
-<nav><a class="nav-profile" href="#"><img class="nav-avatar" src="assets/profile/vikas-avatar.jpg" alt="Vikas Upadhyay"><span class="logo">V<span>.</span>U</span></a><div class="links"><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div></nav>
+<nav><a class="nav-profile" href="#"><img class="nav-avatar" src="assets/profile/vikas-avatar.jpg" alt="Vikas Upadhyay"><span class="logo">V<span>.</span>U</span></a><div class="links"><a href="#about">About</a><a href="#services">Services</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div></nav>
 
 <header class="hero hero-2026">
 <div class="hero-grid-glow"></div>
@@ -300,8 +321,8 @@ a:hover~.fx-cursor,.btn:hover~.fx-cursor{width:34px;height:34px}
   <div class="hero-copy">
     <div class="eyebrow"><span class="status-dot"></span> Senior Flutter Developer · Mumbai, India</div>
     <div class="hero-index">01 — PROFILE / 2026</div>
-    <h1>Senior <span class="gradient">Flutter Developer</span><br>building digital products.</h1>
-    <p class="hero-lead">I design and engineer production-ready Android and iOS apps with Flutter and Dart — from polished UI and scalable architecture to REST APIs, Firebase, cloud services, CI/CD and store deployment.</p>
+    <h1>Vikas Upadhyay<br><span class="gradient">Flutter & Mobile App Developer</span></h1>
+    <p class="hero-lead">I design and engineer production-ready Android and iOS applications with Flutter and Dart — from polished UI and scalable architecture to REST APIs, Firebase, cloud services, CI/CD and Google Play / App Store deployment.</p>
     <div class="actions">
       <a class="btn primary" href="#projects">Explore My Work ↓</a>
       <a class="btn" href="mailto:vikasupadhyay221@gmail.com">Let's Work Together</a>
@@ -346,6 +367,58 @@ a:hover~.fx-cursor,.btn:hover~.fx-cursor{width:34px;height:34px}
 
 
 
+</section>
+
+
+<section id="services">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="kicker">02 / Services</div>
+        <h2>Mobile & software development.</h2>
+      </div>
+      <div style="color:var(--muted);max-width:420px">
+        Production-focused development for startups, businesses and product teams — with Flutter at the core.
+      </div>
+    </div>
+
+    <div class="service-grid">
+      <a class="service-card" href="mobile-app-development/">
+        <span class="service-number">01</span>
+        <h3>Mobile App Development</h3>
+        <p>Cross-platform Android and iOS applications with Flutter, Dart, responsive UI, scalable architecture and production deployment.</p>
+        <span class="service-link">Explore mobile app development →</span>
+      </a>
+
+      <a class="service-card" href="flutter-development/">
+        <span class="service-number">02</span>
+        <h3>Flutter Development</h3>
+        <p>Flutter application engineering with BLoC, Provider, Clean Architecture, reusable widgets, REST APIs and Firebase.</p>
+        <span class="service-link">Explore Flutter development →</span>
+      </a>
+
+      <a class="service-card" href="ios-development/">
+        <span class="service-number">03</span>
+        <h3>iOS Development</h3>
+        <p>Flutter-based iOS application development, responsive interfaces, API integrations, testing and App Store release workflows.</p>
+        <span class="service-link">Explore iOS development →</span>
+      </a>
+
+      <a class="service-card" href="android-development/">
+        <span class="service-number">04</span>
+        <h3>Android Development</h3>
+        <p>Production Android apps with Flutter, Firebase, REST APIs, authentication, payments, maps and Google Play deployment.</p>
+        <span class="service-link">Explore Android development →</span>
+      </a>
+
+      <a class="service-card" href="software-development/">
+        <span class="service-number">05</span>
+        <h3>Software Development</h3>
+        <p>End-to-end product engineering across mobile apps, API integrations, cloud services, architecture, testing and release automation.</p>
+        <span class="service-link">Explore software development →</span>
+      </a>
+    </div>
+  </div>
 </section>
 
 <section id="experience"><div class="wrap"><div class="section-head"><div><div class="kicker">02 / Experience</div><h2>Where I've worked.</h2></div></div><div class="timeline">
@@ -509,7 +582,10 @@ a:hover~.fx-cursor,.btn:hover~.fx-cursor{width:34px;height:34px}
 
 <section><div class="wrap"><div class="contact" id="contact"><div><div class="kicker">05 / Contact</div><h2>Have an idea?<br><span class="gradient">Let's build it.</span></h2><p>Available for product development, Flutter projects and freelance collaboration.</p></div><div class="actions"><a class="btn primary" href="mailto:vikasupadhyay221@gmail.com">Email Me</a><a class="btn" href="https://www.linkedin.com/" target="_blank">LinkedIn ↗</a><a class="btn" href="https://github.com/VikasUp" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></div></div></section>
 </main>
-<footer class="wrap"><span>© 2026 Vikas Upadhyay</span><span>Flutter · Dart · Mobile Engineering</span></footer>
+<footer class="wrap">
+  <span>© 2026 Vikas Upadhyay</span>
+  <span>Flutter · Dart · Mobile Engineering · <a href="mobile-app-development/">Mobile App Development</a> · <a href="software-development/">Software Development</a></span>
+</footer>
 <script>
 const lightbox=document.getElementById('lightbox'),lightboxImg=document.getElementById('lightboxImg');
 document.querySelectorAll('[data-lightbox]').forEach(el=>el.addEventListener('click',()=>{lightboxImg.src=el.dataset.lightbox;lightbox.classList.add('open');lightbox.setAttribute('aria-hidden','false')}));
