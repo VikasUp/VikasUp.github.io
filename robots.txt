@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vikasup.github.io/sitemap.xml
+Sitemap: https://fluverse-technologies.github.io/sitemap.xml
