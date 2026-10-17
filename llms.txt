@@ -1,0 +1,19 @@
+# Vikas Upadhyay
+
+> Vikas Upadhyay is a Senior Flutter Developer based in Mumbai, India, with 3+ years of experience shipping 8+ production Android and iOS apps (200K+ users) using Flutter, Dart, BLoC, Provider, Clean Architecture, Firebase, REST APIs and CI/CD. Senior Flutter Developer at Aimbeat Technology (Mumbai, since March 2024) and founder of Fluverse Technologies, a software and app development company headquartered in Silvassa.
+
+- GitHub: https://github.com/VikasUp
+- Email: vikasupadhyay221@gmail.com
+- Company: [Fluverse Technologies](https://fluverse-technologies.github.io/): for client projects, agency work and quotes
+
+## Profile
+
+- [Portfolio](https://vikasup.github.io/): About, work experience, projects, skills, resume and contact
+
+## Services (delivered through Fluverse Technologies)
+
+- [Mobile App Development](https://fluverse-technologies.github.io/mobile-app-development/)
+- [Flutter App Development](https://fluverse-technologies.github.io/flutter-development/)
+- [iOS App Development](https://fluverse-technologies.github.io/ios-development/)
+- [Android App Development](https://fluverse-technologies.github.io/android-development/)
+- [Software Development](https://fluverse-technologies.github.io/software-development/)
